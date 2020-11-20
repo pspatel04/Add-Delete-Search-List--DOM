@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+   
+
+}
+
+header h1
+{
+    text-align: center;
+    align-items: center;
+   
+}
+
+header input
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.main-container
+{
+  border: 2px solid grey;
+  margin: 40px 60px 40px ;
+  padding: 20px;
+  border-radius: 6px;
+  ma
+}
+
+
+
+.main-container .add-items h2
+{
+    margin-bottom: 0;
+    margin-top:0;
+
+}
+
+.main-container .add-items input
+{
+    border-radius: 6px;
+}
+.main-container .add-items button
+{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.items
+{
+    border: 2px solid grey;
+    border-radius: 6px;
+   
+   
+}
+
+.items ul 
+{
+   
+   margin-left:-40px;
+    list-style-type: none;  
+    margin-top: 0;
+    margin-bottom: 0;
+ 
+  
+}
+.items ul li
+{
+    border-bottom: 2px solid grey;
+    padding: 6px 12px 6px;
+}
+
+.items ul li:last-child
+{
+    border-bottom: none;
+}
+
+h2
+{
+    margin-bottom: 0;
+}
+
+.items-list .item-button
+{
+ margin-left: 20px;
+}
